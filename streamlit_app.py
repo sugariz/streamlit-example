@@ -13,10 +13,10 @@ test = st.container()
 
 training_data = pd.read_csv("dataset/train.csv")
 testing_data = pd.read_csv("dataset/test.csv")
-healthy = Image.open('dataset/images/train_2.jpg')
-multiple_diseases = Image.open('dataset/images/train_1.jpg')
-rust = Image.open('dataset/images/train_3.jpg')
-scrab = Image.open('dataset/images/train_7.jpg')
+healthy = Image.open('dataset/train_2.jpg')
+multiple_diseases = Image.open('dataset/train_1.jpg')
+rust = Image.open('dataset/train_3.jpg')
+scrab = Image.open('dataset/train_7.jpg')
 
 with header:
     st.title('Đề tài xác định bệnh thực vật')
