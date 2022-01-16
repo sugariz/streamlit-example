@@ -1,17 +1,17 @@
 import streamlit as st
 
-header = st.beta_container()
-dataset = st.beta_container()
-features = st.beta_container()
-model_training = st.beta_container()
+header = st.container()
+dataset = st.container()
+features = st.container()
+model_training = st.container()
 
 with header:
-    st.title('Welcome to my project')
-    st.text('In this project I look into the...')
+    st.title('Đề tài xác định bệnh thực vật')
+    st.text('Trong đề tài này, nhóm em tập trung vào việc tìm kiếm dữ liệu, huấn luyện mô hình và kiểm thử')
 
 with dataset:
     st.header('Dataset')
-    st.text('I found dataset on...')
+    st.text('Dataset sử dụng trong đề tài được lấy ở  Plant Pathology 2020 – FGVC7')
 
 with features:
     st.header('The features I created')
